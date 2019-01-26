@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="movieItem"
+            type="com.movies.magazine.data.Movie" />
+
+        <variable
+            name="isFavScreen"
+            type="Boolean" />
+
+        <variable
+            name="click"
+            type="com.movies.magazine.listener.MovieItemClickListener" />
+    </data>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:foreground="?selectableItemBackground"
+        android:onClick="@{()->click.onMovieItemClick(movieItem)}"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:cardMaxElevation="@dimen/activity_vertical_margin"
+        app:cardPreventCornerOverlap="true">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_movie_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@{movieItem.movieName}"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv_movie"
+                tools:text="Movie 1" />
+
+
+            <TextView
+                android:id="@+id/tv_movie_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="cursive"
+                android:text="@{movieItem.prepTime}"
+                android:textColor="@color/colorLavendarIndigo"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tv_movie_name"
+                app:layout_constraintTop_toTopOf="@+id/bt_fav"
+                app:layout_goneMarginBottom="8dp"
+                app:layout_goneMarginTop="8dp"
+                tools:text="30 minutes" />
+
+            <ImageView
+                android:id="@+id/iv_movie"
+                imageResource_binding="@{movieItem.image}"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:adjustViewBounds="true"
+                android:minHeight="130dp"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@drawable/movie" />
+
+
+            <com.github.ivbaranov.mfb.MaterialFavoriteButton
+                android:id="@+id/bt_fav"
+                toggle_favourite="@{movieItem.isFav()}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:tint="@color/colorPrimaryDark"
+                android:visibility="@{isFavScreen ? View.GONE :View.VISIBLE}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_movie_name"
+                app:layout_constraintVertical_bias="0.0"
+                app:mfb_animate_favorite="false"
+                app:mfb_animate_unfavorite="false"
+                app:mfb_bounce_duration="300"
+                app:mfb_color="white"
+                app:mfb_padding="12"
+                app:mfb_rotation_angle="360"
+                app:mfb_rotation_duration="400"
+                app:mfb_size="48"
+                app:mfb_type="heart" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+</layout>

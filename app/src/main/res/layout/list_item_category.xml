@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="category"
+            type="com.movies.magazine.data.Category" />
+
+        <variable
+            name="click"
+            type="com.movies.magazine.listener.CategoryClickListener" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="@{()->click.onCategoryClick(category.name)}">
+
+        <ImageView
+            android:id="@+id/category_image"
+            imageResource_binding="@{category.imageRes}"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.3"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:id="@+id/category_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:text="@{category.name}"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/margin_large" />
+    </FrameLayout>
+</layout>

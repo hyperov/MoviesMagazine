@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="story_lines">
+       <item>"Arthur Curry, half human half from Atlantis, goes on a trip of a lifetime.\n
+		   Not only does this adventure compel him to come to terms with his real identity,\n
+		   but it also forces him to discover whether he is entirely worthy of fulfilling his own destiny:\n
+		   becoming a king"</item>
+        <item>"In the mythical continent of Westeros,\n
+            several powerful families fight for control of the Seven Kingdoms.\n
+            As conflict erupts in the kingdoms of men,\n
+            an ancient enemy rises once again to threaten them all.\n
+            Meanwhile, the last heirs of a recently usurped dynasty plot to take back their homeland from across the Narrow Sea."</item>
+        <item>"Miles Morales is a New York teen struggling with school,\n
+        friends and, on top of that, being the new Spider-Man.\n
+        When he comes across Peter Parker, the erstwhile saviour of New York,\n
+        in the multiverse, Miles must train to become the new protector of his city."</item>
+        <item>"After the devastating events of Avengers: Infinity War (2018),\n
+            the universe is in ruins due to the efforts of the Mad Titan, Thanos.\n
+            With the help of remaining allies,\n
+            the Avengers must assemble once more in order to undo Thanos' actions\n
+            and restore order to the universe once and for all,\n
+            no matter what consequences may be in store."</item>
+        <item>"Harry's fourth year at Hogwarts is about to start and he is enjoying the summer vacation with his friends.\n
+            They get the tickets to The Quidditch World Cup Final but after the match is over,\n
+            people dressed like Lord Voldemort's 'Death Eaters'\n
+            set a fire to all the visitors' tents,\n
+            coupled with the appearance of Voldemort's symbol,\n
+            the 'Dark Mark' in the sky, which causes a frenzy across the magical community.\n
+            That same year, Hogwarts is hosting 'The Triwizard Tournament',\n
+            a magical tournament between three well-known schools of magic : Hogwarts,\n
+            Beauxbatons and Durmstrang. The contestants have to be above the age of 17,\n
+            and are chosen by a magical object called Goblet of Fire.\n
+            On the night of selection, however,\n
+            the Goblet spews out four names instead of the usual three,\n
+            with Harry unwittingly being selected as the Fourth Champion.\n
+            Since the magic cannot be reversed,\n
+            Harry is forced to go with it and brave three exceedingly difficult tasks."</item>
+        <item>"After stealing a mysterious orb in the far reaches of outer space,\n
+            Peter Quill from Earth is now the main target of a manhunt\n
+            led by the villain known as Ronan the Accuser.\n
+            To help fight Ronan and his team and save the galaxy from his power,\n
+            Quill creates a team of space heroes known as the "Guardians of the Galaxy" to save the galaxy."</item>
+        <item>"In a brand new Jumanji adventure, four high school kids discover an old video game console\n
+            and are drawn into the game's jungle setting,\n
+            literally becoming the adult avatars they chose.\n
+            What they discover is that you don't just play Jumanji - you must survive it.\n
+            To beat the game and return to the real world,\n
+            they'll have to go on the most dangerous adventure of their lives,\n
+            discover what Alan Parrish left 20 years ago, and change the way they think about themselves -\n
+            or they'll be stuck in the game forever,\n
+            to be played by others without break."</item>
+        <item>"After the Baudelaire parents die in a terrible fire,\n
+            the Baudelaire orphans search for their families secrets and get them\n
+            and their fortune away from the terrible grasp of the sinister Count Olaf\n
+            as he moves with them between different guardians in disguise."</item>
+        <item>"The LEGO Movie is a 3D animated film which follows lead character,\n
+            Emmet a completely ordinary LEGO mini-figure who is identified as the most "extraordinary person"\n
+            and the key to saving the Lego universe.\n
+            Emmet and his friends go on an epic journey to stop the evil tyrant, Lord Business."</item>
+        <item>"This is the origin story of former Special Forces operative turned mercenary Wade Wilson,\n
+            who after being subjected to a rogue experiment that leaves him with accelerated healing powers,\n
+            adopts the alter ego Deadpool.\n
+            Armed with his new abilities and a dark,twisted sense of humor,\n
+            Deadpool hunts down the man who nearly destroyed his life."</item>
+        <item>"Marty McFly, a typical American teenager of the Eighties,\n
+            is accidentally sent back to 1955 in a plutonium-powered DeLorean "time machine"\n
+            invented by a slightly mad scientist.\n
+            During his often hysterical, always amazing trip back in time,\n
+            Marty must make certain his teenage parents-to-be meet and fall in love\n
+            - so he can get back to the future."</item>
+        <item>"The Doctor, a Time Lord from the race whose home planet is Gallifrey,\n
+            travels through time and space in his/her ship the TARDIS\n
+            (an acronym for Time and Relative Dimension In Space)\n
+            with numerous companions.\n
+            From time to time he/she regenerates into a new form\n
+            (which is how the series has been running since the departure of the original actor,\n
+            William Hartnell, in 1966)."</item>
+        <item>"In the year 2043, scavenger James Cole (Aaron Stanford) has been recruited\n
+            by a team of "Project Splinter" scientists led by physicist Katarina Jones (Barbara Sukowa),\n
+            to travel back in time to the year 2015,\n
+            and stop the release of a deadly virus by the enigmatic organization known as the\n
+            "Army of the 12 Monkeys". In Cole's original time-line,\n
+            the virus caused a plague that resulted in the death of seven billion humans in the year 2017,\n
+            and its on-going mutations will mean the eventual end of the human race.\n
+            In the 2015 time-line, Cole will meet and enlist the help of brilliant virologist\n
+            Dr. Cassandra "Cassie" Railly (Amanda Schull);\n
+            the two are brought together because a recording mentioning Cole,\n
+            that Cassie made after the viral outbreak,\n
+            is uncovered by Jones in the future time-line,\n
+            prompting her to select Cole for the mission.\n
+            Cole will also encounter a seemingly unstable math genius named Jennifer Goines (Emily Hampshire),\n
+            whose father Cole has been tasked to kill, Cassie's"</item>
+        <item>"Two FBI agents, Fox Mulder and Dana Scully work in an unassigned detail of the bureau\n
+            called the X-Files investigating cases dealing with unexplained paranormal phenomena.\n
+            Mulder, a true believer, and Scully, a skeptic,\n
+            perceive their cases from stand points of science and the paranormal."</item>
+        <item>"The FBI teams up with a formerly-institutionalized scientist\n
+            - who was performing experiments on the fringe of real science\n
+            - and his son to investigate weird crimes that are seemingly\n
+            part of a larger pattern, and may be connected with a global company called Massive Dynamic."</item>
+        <item>"Bob Parr (A.K.A. Mr. Incredible), and his wife Helen (A.K.A. Elastigirl),\n
+            are the world's greatest famous crime-fighting superheroes in Metroville.\n
+            Always saving lives and battling evil on a daily basis.\n
+            But fifteen years later, they have been forced to adopt civilian identities\n
+            and retreat to the suburbs where they have no choice but to\n
+            retire as superheroes to live a "normal life" with their three children Violet,\n
+            Dash and Jack-Jack (who were secretly born with superpowers).\n
+            Itching to get back into action, Bob gets his chance when a mysterious\n
+            communication summons him to a remote island for a top secret assignment.\n
+            He soon discovers that it will take a super family effort to rescue the world\n
+            from total destruction."</item>
+        <item>"An animated series on adult-swim about the infinite adventures of Rick,\n
+            a genius alcoholic and careless scientist,\n
+            with his grandson Morty, a 14 year-old anxious boy who is not so smart.\n
+            Together, they explore the infinite universes;\n
+            causing mayhem and running into trouble."</item>
+        <item>"When a devastating event befalls the city of San Fransokyo\n
+            and catapults Hiro into the midst of danger,\n
+            he turns to Baymax and his close friends adrenaline junkie Go Go Tomago,\n
+            neatnik Wasabi, chemistry whiz Honey Lemon and fanboy Fred.\n
+            Determined to uncover the mystery,\n
+            Hiro transforms his friends into a band of high-tech heroes called "Big Hero 6."</item>
+        <item>"Fearless optimist Anna teams up with rugged mountain man Kristoff and his loyal reindeer Sven\n
+            and sets off on an epic journey to find her sister Elsa,\n
+            whose icy powers have trapped the kingdom of Arendelle in eternal winter.\n
+            Encountering Everest-like conditions,\n
+            mystical trolls and a hilarious snowman named Olaf,\n
+            Anna and Kristoff battle the elements in a race to save the kingdom.\n
+            From the outside Elsa looks poised,\n
+            regal and reserved, but in reality she lives in fear\n
+            as she wrestles with a mighty secret: she was born with the power to create ice and snow.\n
+            It's a beautiful ability, but also extremely dangerous.\n
+            Haunted by the moment her magic nearly killed her younger sister Anna,\n
+            Elsa has isolated herself, spending every waking minute trying\n
+            to suppress her growing powers. Her mounting emotions trigger the magic,\n
+            accidentally setting off an eternal winter that she can't stop.\n
+            She fears she's becoming a monster and that no one,\n
+            not even her sister, can help her. "</item>
+    </string-array>
+</resources>

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Movies Magazine</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="favourites">Favourites</string>
+    <string name="rate_app">Rate App</string>
+    <string name="send_feedback">Send feedback</string>
+
+    <string name="title_activity_movie_details">MovieDetailsActivity</string>
+    <string name="action_share">Share</string>
+    <string name="method">Method</string>
+    <string name="story_line">Storyline</string>
+    <string name="desc">desc</string>
+
+    <string-array name="movies">
+        <item>AquaMan</item>
+        <item>Game Of Thrones</item>
+        <item>Spider-Man: Into the Spider-Verse</item>
+        <item>Avengers: Endgame</item>
+        <item>Harry potter and the Goblet of fire</item>
+
+        <item>Guardians of the Galaxy</item>
+        <item>Jumanji: Welcome to the Jungle</item>
+        <item>A Series of Unfortunate Events</item>
+        <item>The Lego Movie</item>
+        <item>Deadpool</item>
+
+        <item>Back To the future</item>
+        <item>Doctor Who</item>
+        <item>12 Monkeys</item>
+        <item>X-Files</item>
+        <item>Fringe</item>
+
+        <item>Incredibles</item>
+        <item>Rick and Morty</item>
+        <item>Big Hero 6</item>
+        <item>Frozen</item>
+    </string-array>
+
+    <string-array name="duration_time">
+        <item>30 minutes</item>
+        <item>75 minutes</item>
+        <item>55 minutes</item>
+        <item>55 minutes</item>
+        <item>20 minutes</item>
+        <item>60 minutes</item>
+        <item>45 minutes</item>
+        <item>45 minutes</item>
+        <item>40 minutes</item>
+        <item>20 minutes</item>
+        <item>55 minutes</item>
+        <item>55 minutes</item>
+        <item>55 minutes</item>
+        <item>50 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+</resources>

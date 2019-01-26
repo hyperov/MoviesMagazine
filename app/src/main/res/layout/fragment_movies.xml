@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="isFavEmpty"
+            type="Boolean" />
+
+        <variable
+            name="isFavScreen"
+            type="Boolean" />
+    </data>
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.movies.magazine.view.MoviesFragment">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/id_recycler_movies"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:padding="@dimen/item_offset"
+            android:visibility="@{!isFavScreen ||  !isFavEmpty ?View.VISIBLE :View.GONE}"
+            app:layoutManager="android.support.v7.widget.GridLayoutManager"
+            app:spanCount="2"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/colorLavendarIndigo"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="There is no Favourites"
+            android:visibility="@{isFavScreen &amp;&amp; isFavEmpty ?View.VISIBLE :View.GONE}"
+            tools:visibility="visible" />
+
+
+    </FrameLayout>
+</layout>

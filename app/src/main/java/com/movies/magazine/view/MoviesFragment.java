@@ -59,7 +59,7 @@ public class MoviesFragment extends DaggerFragment
 	}
 	
 	/**
-	 * Use this factory method to create a new instance of
+	 * Use this factory trivia to create a new instance of
 	 * this fragment using the provided parameters.
 	 *
 	 * @param categoryName Parameter 1.

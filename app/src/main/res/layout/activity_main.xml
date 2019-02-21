@@ -21,7 +21,7 @@
         android:fitsSystemWindows="true"
         app:elevation="10dp"
         app:headerLayout="@layout/nav_header_main"
-        app:itemBackground="@android:drawable/menuitem_background"
+        app:itemBackground="@android:drawable/list_selector_background"
         app:itemIconTint="@color/colorPrimary"
         app:itemTextColor="@color/colorPrimaryDark"
         app:menu="@menu/activity_main_drawer" />

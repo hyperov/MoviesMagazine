@@ -57,7 +57,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
 						"============\n" + movie.getIngredients() + "\n"
 						+ "==========================================\n"
 						+ "Method:\n" +
-						"========\n" + movie.getMethod() + "\n";
+						"========\n" + movie.getTrivia() + "\n";
 			}
 		} );
 		
@@ -99,7 +99,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
 		if ( item.getItemId() == R.id.action_share ) {
 			Intent intent = getShareIntent();
 			setShareIntent( intent );
-			startActivity( Intent.createChooser( intent, "Choose sharing method" ) );
+			startActivity( Intent.createChooser( intent, "Choose sharing trivia" ) );
 			return true;
 		}
 		return super.onOptionsItemSelected( item );

@@ -37,9 +37,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/activity_vertical_margin"
                 android:gravity="center"
-                android:text="Prepare Time: 30 minutes"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="@dimen/text_size_medium" />
+                android:textSize="@dimen/text_size_medium"
+                tools:text="Prepare Time: 30 minutes" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -71,7 +71,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/text_margin"
-                android:text="@string/method"
+                android:text="@string/trivia_title"
                 android:textColor="@color/colorBlueCold"
                 android:textSize="@dimen/text_size_large" />
 
@@ -86,7 +86,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/text_margin"
-                    android:text="@{movie.method}"
+                    android:text="@{movie.trivia}"
                     android:textColor="@color/design_default_color_primary_dark"
                     android:textSize="@dimen/text_size_medium"
                     tools:text="-first step" />

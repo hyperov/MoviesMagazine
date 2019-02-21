@@ -13,7 +13,7 @@
 
     <string name="title_activity_movie_details">MovieDetailsActivity</string>
     <string name="action_share">Share</string>
-    <string name="method">Method</string>
+    <string name="trivia_title">Trivia</string>
     <string name="story_line">Storyline</string>
     <string name="desc">desc</string>
 

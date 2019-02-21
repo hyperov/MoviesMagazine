@@ -211,15 +211,15 @@ public class MainActivity extends DaggerAppCompatActivity
         String[] durationTime = getResources().getStringArray(R.array.duration_time);
 
         //adventures movies
-        Movie movie1 = new Movie(null, movies[0], getString(R.string.desc),
+        Movie movie1 = new Movie(null, movies[0].replace(" ",""), getString(R.string.desc),
                 storyLines[0], trivia[0], R.drawable.aquaman, CATEGORY_ADVENTURES, false, durationTime[0]);
-        Movie movie2 = new Movie(null, movies[1], getString(R.string.desc),
+        Movie movie2 = new Movie(null, movies[1].replace(" ",""), getString(R.string.desc),
                 storyLines[1], trivia[0], R.drawable.game_of_thrones, CATEGORY_ADVENTURES, false, durationTime[1]);
-        Movie movie3 = new Movie(null, movies[2], getString(R.string.desc),
+        Movie movie3 = new Movie(null, movies[2].replace(" ",""), getString(R.string.desc),
                 storyLines[2], trivia[0], R.drawable.spiderman_into_the_spider_verse, CATEGORY_ADVENTURES, false, durationTime[2]);
-        Movie movie4 = new Movie(null, movies[3], getString(R.string.desc),
+        Movie movie4 = new Movie(null, movies[3].replace(" ",""), getString(R.string.desc),
                 storyLines[3], trivia[0], R.drawable.avengers_endgame, CATEGORY_ADVENTURES, false, durationTime[3]);
-        Movie movie5 = new Movie(null, movies[4], getString(R.string.desc),
+        Movie movie5 = new Movie(null, movies[4].replace(" ",""), getString(R.string.desc),
                 storyLines[4], trivia[0], R.drawable.harrypotter, CATEGORY_ADVENTURES, false, durationTime[4]);
 
         Movie movie6 = new Movie(null, movies[5], getString(R.string.desc),

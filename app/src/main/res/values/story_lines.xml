@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="story_lines">
-       <item>"Arthur Curry, half human half from Atlantis, goes on a trip of a lifetime.\n
-		   Not only does this adventure compel him to come to terms with his real identity,\n
+       <item>"Arthur Curry, half human half from Atlantis, goes on a trip of a lifetime.\nNot only does this adventure compel him to come to terms with his real identity,\n
 		   but it also forces him to discover whether he is entirely worthy of fulfilling his own destiny:\n
 		   becoming a king"</item>
         <item>"In the mythical continent of Westeros,\n
